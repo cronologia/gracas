@@ -1,12 +1,12 @@
 {
   "meta": {
     "title": "Our Lady of Grace — the Miraculous Medal — Cronologia",
-    "subtitle": "Chronology of the reported Rue du Bac apparitions and the Miraculous Medal (1806–1947)",
-    "description": "An open, source-referenced chronology of the reported 1830 apparitions to Catherine Labouré at the Rue du Bac chapel in Paris, the Miraculous Medal derived from them, and the Church judgments on both.",
+    "subtitle": "Chronology of the reported Rue du Bac apparitions, the Miraculous Medal and the Paris they happened in (1806–2017)",
+    "description": "An open, source-referenced chronology of the reported 1830 apparitions to Catherine Labouré at the Rue du Bac chapel in Paris: the July Revolution and the cholera epidemic around them, the Miraculous Medal and its diffusion, the graces reported for it, the seer’s lifelong anonymity, and the Church judgments on all of it.",
     "language": "en",
     "siteUrl": "https://cronologia.github.io/gracas/",
     "lastUpdated": "2026-08-05",
-    "dataQualityNote": "Work-in-progress dataset compiled from public sources (see references). The apparitions are recorded as REPORTED events: the dataset states who reported what and when, and what Church authorities ruled and when — it never asserts the supernatural claim as fact. Contested claims are attributed to their authors; dates not yet verified against a primary source are flagged with a ? mark. Corrections against primary sources are welcome."
+    "dataQualityNote": "Work-in-progress dataset compiled from public sources (see references). The apparitions are recorded as REPORTED events: the dataset states who reported what and when, and what Church authorities ruled and when — it never asserts the supernatural claim as fact. Events around 1830 that are not part of the account — the July Revolution, the sacking of the archbishopric, the 1832 cholera epidemic, the state of the Vincentian houses — are CONTEXT for the Paris this happened in, and are offered neither as explanation nor as corroboration. Reported graces are handled the same way: the datable thing is the ACCOUNT, that a cure or conversion was reported and printed, by whom and when — Aladel's pamphlet of 1834 above all — or the RECOGNITION ACT, of which there is one here, Cardinal Patrizi's decree of 3 June 1842 on a different event in Rome. No cure is recorded as having happened; the reported incorruption of the body in 1933 is recorded as what witnesses reported, not as a finding. 'Miraculous' is the name Parisians gave the medal, recorded as a popular attribution and never adopted as this dataset's own. Diffusion and attendance figures are attributed to whoever publishes them and left unreconciled where they disagree. Contested claims are attributed to their authors; dates not yet verified against a primary source are flagged with a ? mark. Corrections against primary sources are welcome."
   },
   "facts": [
     {
@@ -48,6 +48,26 @@
       "value": "27 November — feast of the Manifestation of the Immaculate Virgin under the title of the Miraculous Medal, instituted by Leo XIII on 23 July 1894.",
       "sources": [
         "cath-enc-1911"
+      ]
+    },
+    {
+      "label": "Reported graces",
+      "value": "Cures and conversions were claimed for the medal from the beginning, and they are what carried it: Aladel's pamphlet of August 1834 put them into print, anonymously, and Parisians renamed the medal 'miraculous' on the strength of them. This dataset records the CLAIMING — who reported, who printed, and when — and never that a cure happened. Exactly one recognition act is on this record, and it belongs to a different event in a different city: Cardinal Patrizi's decree of 3 June 1842 on the conversion of Alphonse Ratisbonne at Rome. No cure attributed to the medal at Paris carries a Church judgment of its own, and none is asserted here.",
+      "sources": [
+        "aladel-notice-1834",
+        "chapelle-medaille",
+        "miraclehunter-ratisbonne"
+      ]
+    },
+    {
+      "label": "Diffusion and attendance, as counted",
+      "value": "The numbers in this dataset are always somebody's numbers. Medal diffusion: over 500,000 by 1834 and over a million by 1835 per the chapel's own account; over ten million within seven years and a thousand million by 1876 per the historian Yves Chiron as cited by the French Wikipedia; some twenty million in 1837 alone per Polistena's study. Chapel attendance: close to two million a year in a 2017 Paris tourism observatory survey, about three million for 2025 per the French Wikipedia. Nothing here is reconciled, because the counters do not reconcile it.",
+      "sources": [
+        "chapelle-medaille",
+        "frwiki-medaille",
+        "polistena-2012",
+        "aleteia-2018-chapelle",
+        "frwiki-chapelle"
       ]
     }
   ],
@@ -138,14 +158,28 @@
     },
     {
       "year": 1830,
-      "date": "1830-04",
+      "date": "1830-04-21",
       "dateVerified": false,
       "place": "Paris, France",
       "title": "Catherine Labouré enters the seminary of the Daughters of Charity at the rue du Bac",
-      "text": "Having begun her postulancy at Châtillon in January 1830, Catherine arrives about three months later at the seminary (novitiate) of the motherhouse, 140 rue du Bac, Paris. The chapel's account gives the sequence but no exact arrival day.",
-      "dateNote": "Month inferred from the chapel site's 'three months after January 1830'; exact day not given by the sources used.",
+      "text": "Having begun her postulancy at Châtillon-sur-Seine in January 1830, Catherine arrives about three months later at the seminary (novitiate) of the motherhouse, 140 rue du Bac, Paris — a house the Daughters of Charity had occupied since 1813 and whose chapel had been consecrated on 6 August 1815, the company itself having been suppressed in the Revolution and re-established under the Empire. She was one of several hundred sisters in the novitiate; the English Wikipedia dates her entry 21 April 1830, four days before the translation of St Vincent de Paul's relics.",
+      "dateNote": "The chapel's account gives the sequence ('three months after January 1830') but no day; the English Wikipedia gives 21 April 1830 for the start of the novitiate. The day is recorded from the tertiary source and stays flagged.",
       "sources": [
-        "chapelle-catherine"
+        "chapelle-catherine",
+        "wiki-en-laboure",
+        "frwiki-chapelle"
+      ]
+    },
+    {
+      "year": 1830,
+      "date": "1830-04-25",
+      "dateVerified": true,
+      "place": "Paris, France",
+      "title": "The relics of St Vincent de Paul are translated to the rue de Sèvres",
+      "text": "A great procession carried the relics of St Vincent de Paul from Notre-Dame to the church of the Congregation of the Mission on the rue de Sèvres, with the archbishop, royal authorities, religious communities and the poor of Paris; Charles X attended. Vincent's tomb had been desecrated in the Revolution and his body hidden, and both Vincentian bodies — the Congregation of the Mission and the Daughters of Charity — had been suppressed and re-established: the translation is the moment the family's public standing was restored, four days after Catherine Labouré entered the novitiate down the road. Catherine is reported to have described a vision of the saint's heart in these days; that report reaches us through her confessor and her own later writings, and is recorded here as a report and not as an occurrence.",
+      "sources": [
+        "congregatio-relics-1830",
+        "wiki-en-laboure"
       ]
     },
     {
@@ -158,6 +192,19 @@
       "sources": [
         "chapelle-18-juillet",
         "wiki-fr-rue-du-bac"
+      ]
+    },
+    {
+      "year": 1830,
+      "date": "1830-07-27",
+      "dateVerified": true,
+      "dateNote": "The three days of fighting are 27–29 July 1830, following the ordinances of 26 July; Charles X abdicated on 2 August and Louis-Philippe was proclaimed on 9 August.",
+      "place": "Paris, France",
+      "title": "The July Revolution — and the archbishop's palace is sacked",
+      "text": "Charles X's restrictive ordinances of 26 July brought Paris into the street: three days of fighting from 27 to 29 July ended the Bourbon restoration and put Louis-Philippe on the throne. On 29 July the crowd sacked the archbishop's palace beside Notre-Dame. This is eight days after the first reported apparition and four months before the medal vision, and it is the political weather of both. It is recorded as the setting, not as a cause and not as a corroboration; no source cited here connects the revolution to what Catherine Labouré reported.",
+      "sources": [
+        "britannica-july-revolution",
+        "limouzin-1964"
       ]
     },
     {
@@ -186,6 +233,45 @@
       ]
     },
     {
+      "year": 1831,
+      "date": "1831-01-30",
+      "dateVerified": false,
+      "dateNote": "The English Wikipedia gives 30 January 1831 for her vows; no primary act of the company was reachable from this session.",
+      "place": "Paris, France",
+      "title": "Catherine Labouré takes her vows and disappears into forty years of obscurity",
+      "text": "Two months after the last reported apparition, Catherine took her vows and was sent to the Hospice d'Enghien at Reuilly, on the other side of Paris, to serve the elderly poor — where she stayed for the rest of her life. She never appeared as the seer: her confessor Aladel refused even the archbishop's request to interview her for the 1836 inquiry, and the pamphlet that made the medal famous named her only as an anonymous nun. The anonymity is not incidental to this record. It is the reason every descriptive statement about 1830 passes through Aladel or through her own writings made years later at a confessor's order.",
+      "sources": [
+        "wiki-en-laboure",
+        "frwiki-medaille",
+        "chapelle-catherine"
+      ]
+    },
+    {
+      "year": 1831,
+      "date": "1831-02-14",
+      "dateVerified": true,
+      "dateNote": "The riots ran 14–15 February 1831; the event is dated at their start.",
+      "place": "Paris, France",
+      "title": "Notre-Dame and the archbishopric are devastated in the February riots",
+      "text": "A memorial mass for the assassinated duc de Berry at Saint-Germain-l'Auxerrois on 14 February gave the pretext for two days of anticlerical rioting in which Notre-Dame and the adjoining archbishop's palace were wrecked — worse, Limouzin-Lamothe judges, than the sack of the previous July. Archbishop Hyacinthe-Louis de Quélen lost his residence. He is the authority who, the following year, authorized the striking of the medal: the act came from a hierarchy that had just been driven out of its own buildings, which is context for reading it and not a judgment on it.",
+      "sources": [
+        "limouzin-1964"
+      ]
+    },
+    {
+      "year": 1832,
+      "date": "1832-03-26",
+      "dateVerified": true,
+      "dateNote": "ENAP, working from the daily bulletins of the Gazette des tribunaux, gives 26 March to 30 September 1832 and more than 18,400 deaths in Paris; a footnote in the French Wikipedia article rounds the toll to 20,000. The disagreement is recorded, not resolved.",
+      "place": "Paris, France",
+      "title": "Cholera reaches Paris",
+      "text": "The epidemic ran from 26 March to 30 September 1832 and killed more than 18,400 people in a city of some 786,000 — 12,733 of them in April alone, and 814 on the worst single day. The Daughters of Charity nursed through it, and it is into this that the first medals were distributed in June. The coincidence is part of why the medal spread as fast as it did; it is not evidence about the medal, and the entries keep the two apart.",
+      "sources": [
+        "enap-cholera-1832",
+        "frwiki-medaille"
+      ]
+    },
+    {
       "year": 1832,
       "date": "1832-06",
       "dateVerified": true,
@@ -200,16 +286,30 @@
       ]
     },
     {
+      "year": 1834,
+      "date": "1834-08",
+      "dateVerified": false,
+      "dateNote": "The French Wikipedia dates the first edition to August 1834 and gives a print run of 10,000 exhausted within two months; the Google Books record reached here is the fourth edition of 1835. The month is recorded from the tertiary source and stays flagged.",
+      "place": "Paris, France",
+      "title": "Aladel prints the first collection of the graces reported after the medal",
+      "text": "Jean-Marie Aladel CM published, over the signature M***, the Notice historique sur l'origine et les effets de la nouvelle médaille — the pamphlet that put the account of the medal's origin and the cures and conversions attributed to it into print, without naming the nun who reported the vision. Ten thousand copies in August 1834, gone in under two months, and four editions by 1835. What is dated here is the PUBLICATION: a partisan of the devotion, who was also the seer's confessor, collecting and circulating claims. That such claims were being made and printed, by whom and when, is the record. Whether any of them happened is not something this dataset says, and none of them carries a Church judgment of its own.",
+      "sources": [
+        "aladel-notice-1834",
+        "frwiki-medaille"
+      ]
+    },
+    {
       "year": 1835,
       "date": "1835",
       "dateVerified": false,
       "place": "Paris, France",
       "title": "Mass diffusion — the people of Paris name the medal 'miraculous'",
-      "text": "Reported cures and conversions drive explosive demand: the chapel's account counts over 500,000 medals by autumn 1834 and over a million worldwide in 1835; Polistena records some twenty million made in 1837 alone by Vachette and other Paris and Lyon goldsmiths. The popular renaming is recorded by the chapel's site: 'the people of Paris call the medal miraculous' — a popular attribution, not a canonical title.",
+      "text": "Reported cures and conversions drive explosive demand: the chapel's account counts over 500,000 medals by autumn 1834 and over a million worldwide in 1835; the French Wikipedia, citing the historian Yves Chiron (2007), gives over 500,000 distributed by February 1834, more than ten million struck within seven years, and a thousand million passed by 1876; Polistena records some twenty million made in 1837 alone by Vachette and other Paris and Lyon goldsmiths. Every figure here belongs to whoever published it and none is adopted as this dataset's own. The popular renaming is recorded by the chapel's site: 'the people of Paris call the medal miraculous' — a popular attribution, not a canonical title, and one the French Wikipedia glosses as pointing at the medal's reported ORIGIN in a vision rather than at any power in the object.",
       "dateNote": "A diffusion process, not a dated event; 1835 is the chapel site's 'over a million worldwide' milestone.",
       "sources": [
         "chapelle-medaille",
-        "polistena-2012"
+        "polistena-2012",
+        "frwiki-medaille"
       ]
     },
     {
@@ -250,6 +350,18 @@
       ]
     },
     {
+      "year": 1849,
+      "date": "1849",
+      "dateVerified": false,
+      "dateNote": "Year from the French Wikipedia article on the chapel; the building records were not reachable from this session.",
+      "place": "Paris, France",
+      "title": "The chapel is enlarged for the crowds",
+      "text": "The motherhouse chapel, consecrated in 1815 and built for a private community of several hundred sisters, was enlarged by the architect Gallois to take the crowds the medal had brought. It is the first physical sign that a private novitiate chapel had become a pilgrimage site.",
+      "sources": [
+        "frwiki-chapelle"
+      ]
+    },
+    {
       "year": 1876,
       "date": "1876-12-31",
       "dateVerified": true,
@@ -275,15 +387,42 @@
       ]
     },
     {
+      "year": 1930,
+      "date": "1930",
+      "dateVerified": false,
+      "dateNote": "Year from the French Wikipedia article on the chapel; no primary building record was reachable.",
+      "place": "Paris, France",
+      "title": "Centenary rebuilding gives the chapel its present shape",
+      "text": "For the centenary of the reported apparitions the architect Richardière added a side aisle with two superimposed galleries — the work that gives the chapel the form visitors see today. Further campaigns followed in 1979–1980 and 2009.",
+      "sources": [
+        "frwiki-chapelle"
+      ]
+    },
+    {
+      "year": 1933,
+      "date": "1933-03-21",
+      "dateVerified": false,
+      "dateNote": "The day 21 March 1933 is widely given in devotional and encyclopedic accounts; no official process document was reachable from this session, and the repo has an open thread for it.",
+      "place": "Reuilly / rue du Bac, Paris",
+      "title": "The body is exhumed, and reported found intact",
+      "text": "Fifty-seven years after her burial, Catherine Labouré's coffin was opened at Reuilly before witnesses said to have included representatives of the archdiocese, the Daughters of Charity, the Congregation of the Mission and medical examiners. What those witnesses REPORTED was a body intact and supple. That report is the datable thing, and it is what this entry records; the dataset does not state that the body was incorrupt, which is a claim, nor that it was not. Later in the year the reliquary was placed in the rue du Bac chapel at the foot of the statue of the Virgin of the Globe, where it remains.",
+      "sources": [
+        "wiki-en-laboure",
+        "amm-story",
+        "frwiki-chapelle"
+      ]
+    },
+    {
       "year": 1933,
       "date": "1933-05-28",
       "dateVerified": true,
       "place": "Rome, Italy",
       "title": "Beatification of Catherine Labouré; her body exhumed the same year",
-      "text": "Pius XI beatifies Catherine Labouré on 28 May 1933. Earlier that year her body was exhumed at Reuilly and reported found intact — a claim reported by devotional and encyclopedic sources; it now lies in a glass reliquary under a side altar of the rue du Bac chapel.",
+      "text": "Pius XI beatifies Catherine Labouré on 28 May 1933, ten weeks after the exhumation at Reuilly. A beatification is a judgment about a person — her sanctity and her cult — and commentators have read it as implicit confirmation of her account; it is not a declaratory sentence on the apparitions, and no such sentence is on record.",
       "sources": [
         "wiki-en-laboure",
-        "amm-story"
+        "amm-story",
+        "chapelle-catherine"
       ]
     },
     {
@@ -296,6 +435,18 @@
       "sources": [
         "vatican-pius12-1947",
         "wiki-en-laboure"
+      ]
+    },
+    {
+      "year": 2017,
+      "date": "2017",
+      "dateVerified": true,
+      "place": "Paris, France",
+      "title": "Visitor counts for the chapel, as published by the counting bodies",
+      "text": "A 2017 survey by the Paris tourism economic observatory put the chapel at close to two million visitors a year, eighth among the city's cultural sites — ahead of the Arc de Triomphe — and, in the reporting, France's second pilgrimage destination after Lourdes. The French Wikipedia article carries the same two-million figure and adds a higher one, about three million, for 2025. The counts belong to the bodies that made them; the shrine publishes no audited figure that this session could reach, and the gap between the two numbers is left standing.",
+      "sources": [
+        "aleteia-2018-chapelle",
+        "frwiki-chapelle"
       ]
     }
   ],
@@ -432,6 +583,14 @@
           "chapelle-medaille",
           "cath-enc-1911"
         ]
+      },
+      {
+        "title": "A reported cure ≠ a recognized miracle",
+        "text": "Two things attached to a miracle claim are datable and only these are in this chronology. The ACCOUNT: that a cure or conversion was REPORTED, by whom, and when the report is first attested — Aladel's pamphlet of 1834 is the type case, and the events that carry such material name the reporter, never a beneficiary. The RECOGNITION ACT: a dated Church judgment with a document, of which there is exactly one here, Cardinal Patrizi's decree of 3 June 1842 — and that decree concerns Ratisbonne's conversion at Rome, not the medal and not the Paris apparitions. A cure claimed for the medal with no named reporter and no Church act is not in this dataset at all.",
+        "sources": [
+          "aladel-notice-1834",
+          "miraclehunter-ratisbonne"
+        ]
       }
     ]
   },
@@ -542,6 +701,70 @@
       "publisher": "The Miracle Hunter (Michael O'Neill)",
       "publisherNote": "Catalog of Marian apparition claims and their canonical statuses — devotional-leaning reference; source for the 3 June 1842 Patrizi decree.",
       "type": "reference"
+    },
+    {
+      "id": "congregatio-relics-1830",
+      "title": "The Translation of the Relics of Saint Vincent de Paul",
+      "url": "https://congregatiomissionis.org/en/the-translation-of-the-relics-of-saint-vincent-de-paul/",
+      "publisher": "Congregatio Missionis (Congregation of the Mission), Rome",
+      "publisherNote": "The Vincentians' own official site — an in-house institutional source, used for the date and shape of the 25 April 1830 procession and for how the congregation itself narrates its recovery after the revolutionary suppression.",
+      "type": "primary"
+    },
+    {
+      "id": "britannica-july-revolution",
+      "title": "July Revolution (French history)",
+      "url": "https://www.britannica.com/event/July-Revolution",
+      "publisher": "Encyclopaedia Britannica",
+      "publisherNote": "General reference, cited only to date the ordinances of 26 July 1830, the three days of fighting and the change of regime — the political weather of the months between the reported apparitions.",
+      "type": "encyclopedia"
+    },
+    {
+      "id": "limouzin-1964",
+      "title": "La dévastation de Notre-Dame et de l'archevêché de Paris en février 1831",
+      "url": "https://www.persee.fr/doc/rhef_0300-9505_1964_num_50_147_1733",
+      "publisher": "Roger Limouzin-Lamothe, Revue d'histoire de l'Église de France 50/147 (1964), pp. 125–134",
+      "publisherNote": "Peer-reviewed article in the standard French journal of ecclesiastical history, open access at Persée — used for the two sackings of the archbishopric, 29 July 1830 and 14–15 February 1831.",
+      "type": "academic"
+    },
+    {
+      "id": "enap-cholera-1832",
+      "title": "L'épidémie de choléra à Paris en 1832",
+      "url": "https://www.enap.justice.fr/histoire/lepidemie-de-cholera-paris-en-1832",
+      "publisher": "École nationale d'administration pénitentiaire (ENAP), France",
+      "publisherNote": "Heritage collection of a French public institution, presenting the epidemic through the daily bulletins of the Gazette des tribunaux from 30 March 1832 — used for the epidemic's dates and for the official death toll, which other sources round differently.",
+      "type": "academic"
+    },
+    {
+      "id": "frwiki-medaille",
+      "title": "Médaille miraculeuse",
+      "url": "https://fr.wikipedia.org/wiki/M%C3%A9daille_miraculeuse",
+      "publisher": "Wikipédia (fr)",
+      "publisherNote": "Tertiary source, used provisionally for the diffusion figures, which it attributes to the historian Yves Chiron (2007) — the attribution chain is recorded rather than collapsed, and Chiron's book was not read from this session.",
+      "type": "encyclopedia"
+    },
+    {
+      "id": "aladel-notice-1834",
+      "title": "Notice historique sur l'origine et les effets de la nouvelle médaille … généralement connue sous le nom de Médaille miraculeuse (par M***, prêtre de la Congrégation de la Mission de St-Lazare)",
+      "url": "https://books.google.com/books/about/Notice_historique_sur_l_origine_et_les_e.html?id=My9b_0jvs_MC",
+      "publisher": "Jean-Marie Aladel CM / Google Books catalogue record",
+      "publisherNote": "The confessor's own anonymous pamphlet — the first printed collection of the graces reported after the medal, and a partisan document by definition. The catalogue record reached here is the fourth edition (1835); the first appeared in August 1834. Cited for the fact, date and authorship of the publication.",
+      "type": "primary"
+    },
+    {
+      "id": "frwiki-chapelle",
+      "title": "Chapelle Notre-Dame-de-la-Médaille-Miraculeuse de Paris",
+      "url": "https://fr.wikipedia.org/wiki/Chapelle_Notre-Dame-de-la-M%C3%A9daille-Miraculeuse_de_Paris",
+      "publisher": "Wikipédia (fr)",
+      "publisherNote": "Tertiary source, used provisionally for the chapel's building history — consecration in 1815, the 1849 and 1930 enlargements, the placing of the reliquary in 1933 — and for one of the circulating attendance figures.",
+      "type": "encyclopedia"
+    },
+    {
+      "id": "aleteia-2018-chapelle",
+      "title": "Paris : cette chapelle attire deux millions de visiteurs chaque année",
+      "url": "https://fr.aleteia.org/2018/11/27/plus-que-larc-de-triomphe-cette-chapelle-attire-des-visiteurs-venus-du-monde-entier/",
+      "publisher": "Aleteia — édition française",
+      "publisherNote": "Catholic online magazine — devotional in outlook, cited only because it names the body behind the number: the figure it reports comes from a 2017 survey by the Paris tourism economic observatory, and the count is attributed there rather than to the shrine.",
+      "type": "devotional"
     }
   ]
 }
