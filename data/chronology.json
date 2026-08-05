@@ -601,42 +601,47 @@
       "url": "https://www.chapellenotredamedelamedaillemiraculeuse.com/apparitions-et-medaille/",
       "publisher": "Chapelle Notre-Dame de la Médaille Miraculeuse, Paris",
       "publisherNote": "The chapel's own site (Daughters of Charity) — the devotion's primary institutional voice; sympathetic by nature.",
-      "type": "primary"
+      "type": "web"
     },
     {
       "id": "chapelle-18-juillet",
       "title": "Nuit du 18 juillet 1830",
       "url": "https://www.chapellenotredamedelamedaillemiraculeuse.com/apparitions-et-medaille/nuit-du-18-juillet-1830/",
       "publisher": "Chapelle Notre-Dame de la Médaille Miraculeuse, Paris",
-      "type": "primary"
+      "publisherNote": "The chapel's own site — the devotion's primary institutional voice; sympathetic by nature.",
+      "type": "web"
     },
     {
       "id": "chapelle-27-novembre",
       "title": "27 novembre 1830",
       "url": "https://www.chapellenotredamedelamedaillemiraculeuse.com/apparitions-et-medaille/27-novembre-1830/",
       "publisher": "Chapelle Notre-Dame de la Médaille Miraculeuse, Paris",
-      "type": "primary"
+      "publisherNote": "The chapel's own site — the devotion's primary institutional voice; sympathetic by nature.",
+      "type": "web"
     },
     {
       "id": "chapelle-decembre",
       "title": "Décembre 1830",
       "url": "https://www.chapellenotredamedelamedaillemiraculeuse.com/apparitions-et-medaille/decembre-1830/",
       "publisher": "Chapelle Notre-Dame de la Médaille Miraculeuse, Paris",
-      "type": "primary"
+      "publisherNote": "The chapel's own site — the devotion's primary institutional voice; sympathetic by nature.",
+      "type": "web"
     },
     {
       "id": "chapelle-medaille",
       "title": "La Médaille Miraculeuse",
       "url": "https://www.chapellenotredamedelamedaillemiraculeuse.com/apparitions-et-medaille/medaille-miraculeuse/",
       "publisher": "Chapelle Notre-Dame de la Médaille Miraculeuse, Paris",
-      "type": "primary"
+      "publisherNote": "The chapel's own site — the devotion's primary institutional voice; sympathetic by nature.",
+      "type": "web"
     },
     {
       "id": "chapelle-catherine",
       "title": "Catherine Labouré",
       "url": "https://www.chapellenotredamedelamedaillemiraculeuse.com/histoire-dune-famille/catherine-laboure/",
       "publisher": "Chapelle Notre-Dame de la Médaille Miraculeuse, Paris",
-      "type": "primary"
+      "publisherNote": "The chapel's own site — the devotion's primary institutional voice; sympathetic by nature.",
+      "type": "web"
     },
     {
       "id": "vatican-pius12-1947",
@@ -644,7 +649,7 @@
       "url": "https://www.vatican.va/content/pius-xii/fr/speeches/1947/documents/hf_p-xii_spe_19470728_beata-caterina-laboure.html",
       "publisher": "Holy See (vatican.va)",
       "publisherNote": "Papal speech the day after the 27 July 1947 canonization — a Holy See primary source.",
-      "type": "primary"
+      "type": "official"
     },
     {
       "id": "cath-enc-1911",
@@ -668,7 +673,7 @@
       "url": "https://www.kofpb.org/2023/11/27/the-miraculous-medal-a-short-catechism/",
       "publisher": "Knights of Columbus council site",
       "publisherNote": "Devotional catechism reproducing detail from 19th-century Vincentian accounts (the 1836 inquiry's opening date, sittings, evidence classes, and its lack of a pronounced judgment) — sympathetic perspective; archival verification pending.",
-      "type": "devotional"
+      "type": "web"
     },
     {
       "id": "amm-story",
@@ -676,7 +681,7 @@
       "url": "https://amm.org/about-us/story-miraculous-medal/",
       "publisher": "Association of the Miraculous Medal",
       "publisherNote": "A Vincentian association in the United States; its own devotional account of the medal — sympathetic perspective; states the 1836 inquiry 'declared the medal of supernatural origin'.",
-      "type": "devotional"
+      "type": "web"
     },
     {
       "id": "wiki-fr-rue-du-bac",
@@ -700,7 +705,7 @@
       "url": "http://www.miraclehunter.com/marian_apparitions/approved_apparitions/rome1842/index.html",
       "publisher": "The Miracle Hunter (Michael O'Neill)",
       "publisherNote": "Catalog of Marian apparition claims and their canonical statuses — devotional-leaning reference; source for the 3 June 1842 Patrizi decree.",
-      "type": "reference"
+      "type": "database"
     },
     {
       "id": "congregatio-relics-1830",
@@ -708,7 +713,7 @@
       "url": "https://congregatiomissionis.org/en/the-translation-of-the-relics-of-saint-vincent-de-paul/",
       "publisher": "Congregatio Missionis (Congregation of the Mission), Rome",
       "publisherNote": "The Vincentians' own official site — an in-house institutional source, used for the date and shape of the 25 April 1830 procession and for how the congregation itself narrates its recovery after the revolutionary suppression.",
-      "type": "primary"
+      "type": "web"
     },
     {
       "id": "britannica-july-revolution",
@@ -747,8 +752,8 @@
       "title": "Notice historique sur l'origine et les effets de la nouvelle médaille … généralement connue sous le nom de Médaille miraculeuse (par M***, prêtre de la Congrégation de la Mission de St-Lazare)",
       "url": "https://books.google.com/books/about/Notice_historique_sur_l_origine_et_les_e.html?id=My9b_0jvs_MC",
       "publisher": "Jean-Marie Aladel CM / Google Books catalogue record",
-      "publisherNote": "The confessor's own anonymous pamphlet — the first printed collection of the graces reported after the medal, and a partisan document by definition. The catalogue record reached here is the fourth edition (1835); the first appeared in August 1834. Cited for the fact, date and authorship of the publication.",
-      "type": "primary"
+      "publisherNote": "Primary document — the confessor's own anonymous pamphlet, the first printed collection of the graces reported after the medal, and a partisan document by definition. The catalogue record reached here is the fourth edition (1835); the first appeared in August 1834. Cited for the fact, date and authorship of the publication.",
+      "type": "book"
     },
     {
       "id": "frwiki-chapelle",
@@ -764,7 +769,7 @@
       "url": "https://fr.aleteia.org/2018/11/27/plus-que-larc-de-triomphe-cette-chapelle-attire-des-visiteurs-venus-du-monde-entier/",
       "publisher": "Aleteia — édition française",
       "publisherNote": "Catholic online magazine — devotional in outlook, cited only because it names the body behind the number: the figure it reports comes from a 2017 survey by the Paris tourism economic observatory, and the count is attributed there rather than to the shrine.",
-      "type": "devotional"
+      "type": "news"
     }
   ]
 }
