@@ -91,6 +91,32 @@ byte-identical to a build without the feature. Shapes are shown in
 
 - **`meta.vizChips[]`** — header pill links to the visual sections
   (`{ "href": "#lineage", "label": "🌳 Genealogy" }`).
+- **`approvalLadder`** — how far a reported apparition got through Church
+  judgment (`renderApprovalLadder`), ported verbatim from `cronologia/core` →
+  `template/`. Renders at the TOP of the page, above `about`. One rung per
+  authority in `stages[]`, each with a `label`, a `status` from a CLOSED enum
+  (`favourable`, `negative`, `inconclusive`, `reported-undocumented`,
+  `not-found`, `not-reached`, `pending`) and `sources[]` or an explicit
+  `noDocument` note saying what was searched — a rung with neither fails the
+  build. Four properties are load-bearing and are documented in the renderer's
+  header comment in `build.js`: the ladder NEVER renders an overall verdict for
+  the case (each rung speaks only for itself, and a case with several Roman acts
+  about different objects declares several rungs); "no ruling found"
+  (`not-found`), "never went there" (`not-reached`) and "ruled against"
+  (`negative`) stay three distinct things; every rung is cited or says it cannot
+  be; and nothing is encoded by colour alone. `status` is deliberately EXCLUDED
+  from the `approvalLadder` entry in `SUBTREE_TRANSLATABLE` — it is a closed enum
+  the renderer looks up, `status` is otherwise prose in `TRANSLATABLE_KEYS`, and
+  translating it would break only the es/pt build, with "unknown status". The
+  status renders in the page's language from the UI table, keyed on the
+  untranslated enum. **This repo's ladder** is populated: rue du Bac's local
+  rung is `not-reached` (no parish inquiry — the account ran through the
+  confessor Aladel straight to the archbishop), the 1836 diocesan inquiry is
+  `inconclusive` (it examined the MEDAL, its diffusion and Catherine's
+  credibility at one remove, and pronounced no judgment), a Roman ruling on the
+  apparitions themselves is `not-found`, and the three `favourable` rungs
+  (Ratisbonne 1842, the 1894 feast, the 1933/1947 cause) each name in their
+  label the different object they judged.
 - **`lineage`** (alias `episcopalLineage`, the original fsspx key) — genealogy
   / lineage trees (`renderLineageSection`). One `trees[]` entry per branch;
   `separate: true` sets a branch apart visually for lines that must NOT be
