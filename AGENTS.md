@@ -96,7 +96,7 @@ byte-identical to a build without the feature. Shapes are shown in
   `template/`. Renders at the TOP of the page, above `about`. One rung per
   authority in `stages[]`, each with a `label`, a `status` from a CLOSED enum
   (`favourable`, `negative`, `inconclusive`, `reported-undocumented`,
-  `not-found`, `not-reached`, `pending`) and `sources[]` or an explicit
+  `not-found`, `not-reached`, `pending`, `adjacent`) and `sources[]` or an explicit
   `noDocument` note saying what was searched — a rung with neither fails the
   build. Four properties are load-bearing and are documented in the renderer's
   header comment in `build.js`: the ladder NEVER renders an overall verdict for
@@ -114,9 +114,11 @@ byte-identical to a build without the feature. Shapes are shown in
   confessor Aladel straight to the archbishop), the 1836 diocesan inquiry is
   `inconclusive` (it examined the MEDAL, its diffusion and Catherine's
   credibility at one remove, and pronounced no judgment), a Roman ruling on the
-  apparitions themselves is `not-found`, and the three `favourable` rungs
-  (Ratisbonne 1842, the 1894 feast, the 1933/1947 cause) each name in their
-  label the different object they judged.
+  apparitions themselves is `not-found`, and the last three rungs (Ratisbonne
+  1842, the 1894 feast, the 1933/1947 cause) are `adjacent` (core#68) — each
+  names in its label the different object it judged, and `adjacent` exists so
+  that the status line says the same thing the label does instead of rendering
+  a green "concluded in favour" for a decree about somebody else's conversion.
 - **`lineage`** (alias `episcopalLineage`, the original fsspx key) — genealogy
   / lineage trees (`renderLineageSection`). One `trees[]` entry per branch;
   `separate: true` sets a branch apart visually for lines that must NOT be
@@ -293,7 +295,9 @@ verbatim. Subject-specific rules for this repo:
    says findings were favorable but no formal judgment was pronounced before
    de Quélen's death (1839); fr.wikipedia says no completed canonical trial
    ever declared the apparitions authentic. Record the disagreement (event
-   `dateNote`/text), never resolve it silently.
+   `dateNote`/text), never resolve it silently. As of core#73 `dateNote`
+   RENDERS, beneath the event, and is translatable — it is reader-facing prose,
+   so every one needs an es and a pt entry in `data/i18n/`.
 3. **The Ratisbonne event (Rome, 1842) is a separate reported event** with its
    own inquiry and its own decree (Patrizi, 3 June 1842). Never let its formal
    approval bleed onto the Paris apparitions.
