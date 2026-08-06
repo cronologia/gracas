@@ -5,7 +5,7 @@
     "description": "An open, source-referenced chronology of the reported 1830 apparitions to Catherine Labouré at the Rue du Bac chapel in Paris: the July Revolution and the cholera epidemic around them, the Miraculous Medal and its diffusion, the graces reported for it, the seer’s lifelong anonymity, and the Church judgments on all of it.",
     "language": "en",
     "siteUrl": "https://cronologia.github.io/gracas/",
-    "lastUpdated": "2026-08-05",
+    "lastUpdated": "2026-08-06",
     "dataQualityNote": "Work-in-progress dataset compiled from public sources (see references). The apparitions are recorded as REPORTED events: the dataset states who reported what and when, and what Church authorities ruled and when — it never asserts the supernatural claim as fact. Events around 1830 that are not part of the account — the July Revolution, the sacking of the archbishopric, the 1832 cholera epidemic, the state of the Vincentian houses — are CONTEXT for the Paris this happened in, and are offered neither as explanation nor as corroboration. Reported graces are handled the same way: the datable thing is the ACCOUNT, that a cure or conversion was reported and printed, by whom and when — Aladel's pamphlet of 1834 above all — or the RECOGNITION ACT, of which there is one here, Cardinal Patrizi's decree of 3 June 1842 on a different event in Rome. No cure is recorded as having happened; the reported incorruption of the body in 1933 is recorded as what witnesses reported, not as a finding. 'Miraculous' is the name Parisians gave the medal, recorded as a popular attribution and never adopted as this dataset's own. Diffusion and attendance figures are attributed to whoever publishes them and left unreconciled where they disagree. Contested claims are attributed to their authors; dates not yet verified against a primary source are flagged with a ? mark. Corrections against primary sources are welcome."
   },
   "facts": [
@@ -93,11 +93,12 @@
         "when": "1836 — opened 16 February (date unverified), some nineteen sittings to July; lapsed 1839",
         "who": "Archbishop Hyacinthe-Louis de Quélen, through Vicar-General Quentin as promoter",
         "status": "inconclusive",
-        "outcome": "What this inquiry examined was the medal, its diffusion and the credibility of an account it could not hear at first hand — not the supernatural character of the apparitions, and it never publicly identified the seer. Per the detailed account used here it admitted five classes of proof: Catherine Labouré's trustworthiness (attested through Fr Aladel, since she refused to appear before the promoter and stayed anonymous), her director's prudence, the theological soundness of the reported vision, the medal's extraordinary circulation, and documented cures and conversions. The findings were favourable, but no judgment followed — 'the ecclesiastical authority did not pronounce judgment; we know not why the inquiry did not receive the sanction to which it apparently led' — and the proceedings were abandoned at de Quélen's death in 1839. The Association of the Miraculous Medal, a Vincentian devotional body, characterises the outcome far more strongly: 'a canonical inquiry undertaken in Paris declared that the medal was of supernatural origin, and that the wonders worked through it were genuine'. That is the association's wording, from a source labelled here as sympathetic, and no decree is produced for it; this rung records what the inquiry examined and that it issued no verdict, and leaves the stronger reading attributed to the body that makes it.",
+        "outcome": "What this inquiry examined was the medal, its diffusion and the credibility of an account it could not hear at first hand — not the supernatural character of the apparitions, and it never publicly identified the seer. Per the detailed account used here it admitted five classes of proof: Catherine Labouré's trustworthiness (attested through Fr Aladel, since she refused to appear before the promoter and stayed anonymous), her director's prudence, the theological soundness of the reported vision, the medal's extraordinary circulation, and documented cures and conversions. The findings were favourable, but no judgment followed — 'the ecclesiastical authority did not pronounce judgment; we know not why the inquiry did not receive the sanction to which it apparently led' — and the proceedings were abandoned at de Quélen's death in 1839. The Association of the Miraculous Medal, a Vincentian devotional body, characterises the outcome far more strongly: 'a canonical inquiry undertaken in Paris declared that the medal was of supernatural origin, and that the wonders worked through it were genuine'. That is the association's wording, from a source labelled here as sympathetic, and no decree is produced for it; this rung records what the inquiry examined and that it issued no verdict, and leaves the stronger reading attributed to the body that makes it. Two accounts of how that inquiry ended are in circulation and they do not agree. The detailed nineteenth-century narrative used here says no judgment followed at all. The English Wikipedia article says the opposite — that the court \"extolled her character and virtue\", \"placed wholehearted credence in her visions\", and reached \"two important conclusions: that the Medal was of supernatural origin, and that the wonders worked through it were genuine\". Note what even the stronger version does and does not say: its object is the MEDAL and the wonders worked through it, not the apparitions, and the same article nowhere states that the apparitions were approved. The disagreement is over whether conclusions were issued at all; it is recorded and not resolved, and settling it needs the proceedings themselves, which the sources say were lost or never published and which the diocesan archives of Paris would hold if anything does.",
         "sources": [
           "kofpb-catechism",
           "amm-story",
-          "wiki-fr-rue-du-bac"
+          "wiki-fr-rue-du-bac",
+          "wiki-en-medal"
         ]
       },
       {
@@ -120,14 +121,15 @@
         ]
       },
       {
-        "label": "Rome — the liturgical feast of 27 November: a concession to the devotion",
-        "when": "23 July 1894",
+        "label": "Rome — the feast and the coronation: concessions to the devotion",
+        "when": "23 July 1894; coronation granted 1897",
         "who": "Leo XIII, after examination of the facts by the Sacred Congregation of Rites",
         "status": "adjacent",
-        "outcome": "Leo XIII instituted a feast, with a special Office and Mass, of the Manifestation of the Immaculate Virgin under the title of the Miraculous Medal, to be celebrated yearly on 27 November. A feast is a liturgical concession: it authorises public worship under a title and settles that the cult may be celebrated. It is not a finding of fact about the 1830 apparitions, and the act carries no declaration about them. The French Wikipedia synthesis groups it with the seer's canonization as 'implicit' recognition — a description that concedes, in the same breath, that no explicit one exists.",
+        "outcome": "Leo XIII instituted a feast, with a special Office and Mass, of the Manifestation of the Immaculate Virgin under the title of the Miraculous Medal, to be celebrated yearly on 27 November. A feast is a liturgical concession: it authorises public worship under a title and settles that the cult may be celebrated. It is not a finding of fact about the 1830 apparitions, and the act carries no declaration about them. The French Wikipedia synthesis groups it with the seer's canonization as 'implicit' recognition — a description that concedes, in the same breath, that no explicit one exists. Three years later Leo XIII granted a canonical coronation of the statue \"of the Immaculate Conception, known as the Miraculous Medal\" — the highest honour the Holy See pays an image, and still an honour paid to an image. Between the two acts, the Holy See had authorised public worship under the title and crowned the figure, without at any point saying what happened in the chapel in 1830.",
         "sources": [
           "cath-enc-1911",
-          "wiki-fr-rue-du-bac"
+          "wiki-fr-rue-du-bac",
+          "wiki-en-medal"
         ]
       },
       {
@@ -141,7 +143,8 @@
           "vatican-pius12-1947"
         ]
       }
-    ]
+    ],
+    "note": "The Miraculous Medal is an approved devotion, and that is not the same as an approved apparition. Archbishop de Quélen authorised the medal in 1832; Leo XIII instituted its feast with a proper Office and Mass in 1894 and granted a canonical coronation in 1897; the seer was beatified in 1933 and canonized in 1947; the medal has been struck by the hundreds of millions with the Church's blessing for nearly two centuries. Anyone who says the medal is approved is right. What no authority has been found to have issued is a judgment on whether the apparitions Catherine Labouré reported in 1830 were supernatural. The diocesan inquiry of 1836 heard the case at one remove — she refused to appear and stayed anonymous until her death — and the accounts disagree on whether it concluded anything at all; the French Wikipedia synthesis says the apparitions have never been recognised as authentic at the end of a canonical process and calls the Church's recognition \"implicit\", which concedes in the same breath that no explicit one exists. This ladder therefore looks emptier than the devotion's standing would suggest, and the gap between the two is the finding, not an oversight: each rung records one authority, what it did, when, and about WHICH object, and the page adds them up into nothing."
   },
   "events": [
     {
@@ -384,6 +387,18 @@
       "sources": [
         "cath-enc-1911",
         "wiki-fr-rue-du-bac"
+      ]
+    },
+    {
+      "year": 1897,
+      "date": "1897",
+      "dateVerified": false,
+      "dateNote": "Only the year is given by the source consulted (the English Wikipedia article); no decree of the Sacred Congregation of Rites fixing a day was reached from this session.",
+      "place": "Rome / Paris",
+      "title": "Leo XIII grants a canonical coronation of the statue",
+      "text": "Three years after instituting the feast, Leo XIII grants a canonical coronation of the statue \"of the Immaculate Conception, known as the Miraculous Medal\". A coronation is the highest honour the Holy See pays an image and it is an honour paid to an image: it presupposes the cult it crowns and decides nothing about what Catherine Labouré reported seeing in 1830. It belongs with the feast of 1894 on the approval ladder, among the acts on the devotion.",
+      "sources": [
+        "wiki-en-medal"
       ]
     },
     {
@@ -770,6 +785,14 @@
       "publisher": "Aleteia — édition française",
       "publisherNote": "Catholic online magazine — devotional in outlook, cited only because it names the body behind the number: the figure it reports comes from a 2017 survey by the Paris tourism economic observatory, and the count is attributed there rather than to the shrine.",
       "type": "news"
+    },
+    {
+      "id": "wiki-en-medal",
+      "title": "Miraculous Medal",
+      "url": "https://en.wikipedia.org/wiki/Miraculous_Medal",
+      "publisher": "Wikipedia (English)",
+      "publisherNote": "Crowd-edited tertiary source, cited for two things the French article does not carry: the two conclusions it attributes to the 1836 inquiry — that the medal was of supernatural origin and that the wonders worked through it were genuine — and Leo XIII's grant of a canonical coronation in 1897. The first flatly contradicts the detailed nineteenth-century account this dataset also cites, which says no judgment followed; the contradiction is recorded on the rung, not resolved. Notably, the article nowhere says the apparitions were approved.",
+      "type": "encyclopedia"
     }
   ]
 }
