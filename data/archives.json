@@ -1,6 +1,6 @@
 {
   "generatedBy": "scripts/archive-refs.js",
-  "updatedAt": "2026-08-17",
+  "updatedAt": "2026-08-24",
   "snapshots": {
     "http://www.miraclehunter.com/marian_apparitions/approved_apparitions/rome1842/index.html": {
       "refId": "miraclehunter-ratisbonne",
@@ -109,6 +109,12 @@
       "archiveUrl": "https://web.archive.org/web/20260607073721/https://www.chapellenotredamedelamedaillemiraculeuse.com/histoire-dune-famille/catherine-laboure/",
       "timestamp": "20260607073721",
       "checkedAt": "2026-08-10"
+    },
+    "https://www.enap.justice.fr/histoire/lepidemie-de-cholera-paris-en-1832": {
+      "refId": "enap-cholera-1832",
+      "archiveUrl": "https://web.archive.org/web/20260810080625/https://www.enap.justice.fr/histoire/lepidemie-de-cholera-paris-en-1832",
+      "timestamp": "20260810080625",
+      "checkedAt": "2026-08-24"
     },
     "https://www.kofpb.org/2023/11/27/the-miraculous-medal-a-short-catechism/": {
       "refId": "kofpb-catechism",
